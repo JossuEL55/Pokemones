@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pokemones.ResumenPokemon"
+             Title="Información Acerca del Pokemon">
+
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="Center">
+            <Image
+                x:Name="ImagePokemon"
+                HeightRequest="300"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            <Label
+                x:Name="Habilidades"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
